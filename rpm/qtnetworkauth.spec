@@ -13,6 +13,7 @@ Source0: %{name}-%{version}.tar.bz2
 
 # filter plugin/qml provides
 %global __provides_exclude_from ^(%{_opt_qt5_archdatadir}/qml/.*\\.so|%{_opt_qt5_plugindir}/.*\\.so)$
+%{?opt_qt5_default_filter}
 
 BuildRequires: make
 BuildRequires: opt-qt5-qtbase-devel >= %{qt_version}
