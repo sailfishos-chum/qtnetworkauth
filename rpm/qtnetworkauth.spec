@@ -1,8 +1,8 @@
-%global qt_version 5.15.8
+%global qt_version 5.15.9
 
 Summary: Qt5 - NetworkAuth component
 Name:    opt-qt5-qtnetworkauth
-Version: 5.15.8
+Version: 5.15.9
 Release: 1%{?dist}
 
 # See LGPL_EXCEPTIONS.txt, LICENSE.GPL3, respectively, for exception details
